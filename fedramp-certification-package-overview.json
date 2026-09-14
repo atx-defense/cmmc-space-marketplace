@@ -1,0 +1,92 @@
+{
+  "$schema": "https://fedramp.gov/schemas/fedramp-certification-package-overview-schema-2026-06-24.json",
+  "serviceIdentification": {
+    "fedRampPackageId": "EXAMPLE-CSO",
+    "ueiNumber": "",
+    "providerName": "Example Cloud Provider, Inc.",
+    "serviceName": "Example Cloud Service",
+    "serviceAcronym": "ECS",
+    "serviceDescription": "Replace this with a detailed description of the Cloud Service Offering. Markdown is allowed.",
+    "certificationType": "20x",
+    "website": "https://www.example.com",
+    "logo": "https://www.example.com/assets/logo.png"
+  },
+  "serviceProperties": {
+    "serviceType": ["SaaS"],
+    "deploymentModel": "Public Cloud",
+    "businessCategory": [
+      "Cybersecurity & Risk Management",
+      "Governance, Risk, and Compliance (GRC)"
+    ],
+    "trustCenter": {
+      "repositoryType": ["Trust Center"],
+      "url": "https://trust.example.com",
+      "repositoryDescription": "FedRAMP-compatible Trust Center with authorization documentation and assessment reports.",
+      "authenticationRequired": true,
+      "accessRequestInstructions": "Request access at https://trust.example.com/request. Government email required."
+    },
+    "secureConfigurationGuidance": {
+      "repositoryType": ["Secure Configuration Guidance"],
+      "url": "https://docs.example.com/secure-configuration",
+      "repositoryDescription": "Secure configuration guidance for agency customers deploying Example Cloud Service.",
+      "authenticationRequired": false
+    },
+    "additionalRepositories": [
+      {
+        "repositoryType": ["Assessment Reports", "Policies"],
+        "url": "https://trust.example.com/documents",
+        "repositoryDescription": "System authorization documentation, policies, procedures, and assessment reports.",
+        "authenticationRequired": true,
+        "accessRequestInstructions": "Request access through the Trust Center. Authorized agency and assessor personnel only."
+      }
+    ],
+    "nextOngoingCertificationReportDate": "2026-12-31"
+  },
+  "contactInformation": [
+    {
+      "contactType": "Primary",
+      "contactName": "FedRAMP Program Owner",
+      "contactEmail": "fedramp@example.com",
+      "contactPhone": "202-555-0100"
+    },
+    {
+      "contactType": "Security",
+      "contactName": "Security Operations",
+      "contactEmail": "security@example.com",
+      "contactPhone": "202-555-0101"
+    },
+    {
+      "contactType": "Sales",
+      "contactName": "Federal Sales",
+      "contactEmail": "federal-sales@example.com",
+      "contactPhone": "202-555-0102"
+    }
+  ],
+  "assessor": {
+    "name": "Example Independent Assessment Service",
+    "assessorID": "000000"
+  },
+  "certifiedServices": [
+    {
+      "serviceName": "Example Cloud Service",
+      "serviceDescription": "Primary offering included in this certification. Replace with the service name as it appears on the provider website.",
+      "dateAvailable": "2026-01-15"
+    }
+  ],
+  "thirdPartyInformationResources": {
+    "certified": [
+      {
+        "fedRampCertifiedThirdPartyInformationResource": "FRXXXXXXXX",
+        "useCase": "Describe how this FedRAMP-certified third-party resource is used in the offering."
+      }
+    ],
+    "nonCertified": [
+      {
+        "name": "Example Third-Party Service",
+        "provider": "Example Third-Party Provider",
+        "website": "https://third-party.example.com",
+        "useCase": "Describe how this non-FedRAMP-certified third-party resource is used in the offering."
+      }
+    ]
+  }
+}
