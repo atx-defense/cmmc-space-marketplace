@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="212" viewBox="0 0 1200 212"
+     role="img" aria-labelledby="flow-title flow-desc">
+  <title id="flow-title">Change workflow for the certification package file</title>
+  <desc id="flow-desc">Four steps: start from the FedRAMP PMO template, edit the CMMC Space package file, validate it against the FedRAMP JSON schema validator, then open a pull request noting the clean validation.</desc>
+
+  <rect width="1200" height="212" rx="22" fill="#15181C"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <g transform="translate(40 42)">
+      <rect width="248" height="128" rx="10" fill="#1B1F24"/>
+      <text x="22" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#7E8A97">01 &#183; REFERENCE</text>
+      <text x="22" y="70" font-size="22" font-weight="600" fill="#FFFFFF">PMO template</text>
+      <text x="22" y="98" font-size="19" fill="#9AA4B0">read only</text>
+    </g>
+    <path d="M304 106 L336 106" stroke="#4A535D" stroke-width="2"/>
+    <path d="M330 100 L340 106 L330 112 Z" fill="#4A535D"/>
+
+    <g transform="translate(352 42)">
+      <rect width="248" height="128" rx="10" fill="#1B1F24"/>
+      <rect x="0" y="0" width="4" height="128" rx="2" fill="#E8701A"/>
+      <text x="22" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#E8701A">02 &#183; EDIT</text>
+      <text x="22" y="70" font-size="22" font-weight="600" fill="#FFFFFF">Package file</text>
+      <text x="22" y="98" font-size="19" fill="#9AA4B0">our listing data</text>
+    </g>
+    <path d="M616 106 L648 106" stroke="#4A535D" stroke-width="2"/>
+    <path d="M642 100 L652 106 L642 112 Z" fill="#4A535D"/>
+
+    <g transform="translate(664 42)">
+      <rect width="248" height="128" rx="10" fill="#1B1F24"/>
+      <text x="22" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#7E8A97">03 &#183; GATE</text>
+      <text x="22" y="70" font-size="22" font-weight="600" fill="#FFFFFF">Schema validator</text>
+      <text x="22" y="98" font-size="19" fill="#9AA4B0">must pass clean</text>
+    </g>
+    <path d="M928 106 L960 106" stroke="#4A535D" stroke-width="2"/>
+    <path d="M954 100 L964 106 L954 112 Z" fill="#4A535D"/>
+
+    <g transform="translate(976 42)">
+      <rect width="184" height="128" rx="10" fill="#1B1F24"/>
+      <text x="22" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#7E8A97">04 &#183; SHIP</text>
+      <text x="22" y="70" font-size="22" font-weight="600" fill="#FFFFFF">Pull request</text>
+      <text x="22" y="98" font-size="19" fill="#9AA4B0">note the result</text>
+    </g>
+  </g>
+</svg>
