@@ -6,7 +6,7 @@
     "providerName": "ATX Defense",
     "serviceName": "CMMC Space",
     "serviceAcronym": "CMMC Space",
-    "serviceDescription": "CMMC Space is a multi-tenant SaaS virtual desktop service hosted in Google Cloud’s FedRAMP High environment for defense contractors and other organizations that handle Controlled Unclassified Information (CUI). It gives those customers a VDI environment for processing CUI and for access to FedRAMP-authorized Google Workspace services, so they can handle that CUI in line with NIST SP 800-171 and CMMC Level 2.\n\nUsers sign in from a web browser with their Google identity and land in a session ATX Defense builds and hardens: a locked-down Chrome browser or a mission-specific virtual environment, streamed over HTML5. Each customer is a separate tenant with its own users, groups, and workspace images. The underlying virtual infrastructure is operated and patched by ATX Defense, so contractors do not stand up and maintain the environment themselves.\n\nThe CUI in scope is what customers process, store, or transmit inside the virtual desktops and the Google Workspace services reached from them. The user's own device runs only a browser and stays outside that boundary.",
+    "serviceDescription": "CMMC Space is a multi-tenant SaaS virtual desktop service hosted in Google Cloud’s FedRAMP High environment for defense contractors and other organizations that handle Controlled Unclassified Information (CUI). It gives those customers a VDI environment for processing CUI and for access to FedRAMP-authorized services, so they can handle that CUI in line with NIST SP 800-171 and CMMC Level 2.\n\nUsers sign in using the Google Identity Platform into a session ATX Defense builds and hardens: a locked-down Chrome browser or a mission-specific virtual environment, streamed over HTML5. Each customer is a separate tenant with its own users, groups, and workspace images. The underlying virtual infrastructure is operated and patched by ATX Defense, so contractors do not stand up and maintain the environment themselves.\n\nThe CUI in scope is what customers process, store, or transmit inside the virtual desktops and the collaboration services reached from them. The user's own device runs only a browser and stays outside that boundary.",
     "certificationType": "Rev5",
     "website": "https://atxdefense.com/capabilities/cmmc-compliance/",
     "logo": "https://raw.githubusercontent.com/atx-defense/cmmc-space-marketplace/refs/heads/main/img/logo.png"
@@ -20,14 +20,14 @@
     ],
     "trustCenter": {
       "repositoryType": ["Trust Center"],
-      "url": "https://login.max.gov/",
+      "url": "https://community.connect.gov/spaces/FedRAMPExternal/pages/2889032052/ATX+Defense",
       "repositoryDescription": "MAX / USDA Connect location for CMMC Space FedRAMP Trust Center materials.",
       "authenticationRequired": true,
       "accessRequestInstructions": "Request a MAX / USDA Connect account at https://login.max.gov/, then request access to the CMMC Space FedRAMP documentation."
     },
     "secureConfigurationGuidance": {
       "repositoryType": ["Secure Configuration Guidance"],
-      "url": "https://login.max.gov/",
+      "url": "https://community.connect.gov/spaces/FedRAMPExternal/pages/2889032052/ATX+Defense",
       "repositoryDescription": "MAX / USDA Connect location for CMMC Space secure configuration guidance.",
       "authenticationRequired": true,
       "accessRequestInstructions": "Request a MAX / USDA Connect account at https://login.max.gov/, then request access to the CMMC Space FedRAMP documentation."
@@ -35,7 +35,7 @@
     "additionalRepositories": [
       {
         "repositoryType": ["Assessment Reports", "Policies"],
-        "url": "https://login.max.gov/",
+        "url": "https://community.connect.gov/spaces/FedRAMPExternal/pages/2889032052/ATX+Defense",
         "repositoryDescription": "MAX / USDA Connect location for CMMC Space assessment reports, policies, and related authorization documentation.",
         "authenticationRequired": true,
         "accessRequestInstructions": "Request a MAX / USDA Connect account at https://login.max.gov/, then request access to the CMMC Space FedRAMP documentation."
@@ -60,10 +60,6 @@
     {
       "serviceName": "CMMC Space VDI",
       "serviceDescription": "Multi-tenant hardened virtual desktop (locked-down Chrome and/or mission-specific environment) streamed over HTML5. Users sign in with their Google identity. ATX Defense operates and patches the underlying virtual infrastructure."
-    },
-    {
-      "serviceName": "Google Workspace access from CMMC Space",
-      "serviceDescription": "FedRAMP-authorized Google Workspace services reached from the CMMC Space VDI. CUI that customers process, store, or transmit in those services is in scope."
     }
   ],
   "thirdPartyInformationResources": {
