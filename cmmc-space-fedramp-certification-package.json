@@ -70,7 +70,7 @@
       },
       {
         "fedRampCertifiedThirdPartyInformationResource": "F1206081364",
-        "useCase": "Google Workspace provides the collaboration services customers reach from the CMMC Space VDI to process CUI."
+        "useCase": "Google Workspace provides the internal documentation repository for ATX Defense CMMC Space developers and administrators."
       }
     ]
   }
